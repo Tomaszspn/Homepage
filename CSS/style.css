@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.form__header {
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.form__body {
+    background-color: antiquewhite;
+
+}
