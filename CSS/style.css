@@ -8,45 +8,59 @@ html {
     box-sizing: inherit;
 }
 
-.form__header {
+.name {
     height: 20px;
     text-align: center;
     font-weight: bold;
     margin: 0px;
-    margin:0px 100px;
+    margin: 0px 100px;
 }
 
-.form__body {
-    background-color: rgb(147, 198, 247);
-
+.header {
+    max-width: 600px;
+    padding: 8px;
+    background-color: rgba(204, 204, 204, 0.692);
+    margin: 8px auto;
 }
+
+.text {
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 0px auto;
+}
+
+.body {
+    background-color: rgb(249, 251, 253);
+}
+
 .picture {
     height: 100px;
     height: 250px;
     margin: 0px 100px;
-    
+
 }
 
 .flex {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: first baseline;
+    margin: 10px auto;
+
 }
 
-.form__list {
-    list-style-type:none;
-    text-decoration:none;
-    color:#ccc;
+.list:visited {
+    color: #ccc;
 }
-.form__list:visited {
-    color:#ccc
-    
-}
-.form__list:hover {
-    color:aliceblue
+
+.list:hover {
+    color: aliceblue
 }
 
 .list {
     background-color: rgba(58, 58, 58, 0.712);
-    padding:15px;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
 }
