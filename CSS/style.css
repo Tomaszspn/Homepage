@@ -14,13 +14,7 @@ html {
     font-weight: bold;
     margin: 0px;
     margin: 0px 100px;
-}
-
-.header {
-    max-width: 600px;
-    padding: 8px;
-    background-color: rgba(204, 204, 204, 0.692);
-    margin: 8px auto;
+    color: #ccc;
 }
 
 .text {
@@ -28,39 +22,56 @@ html {
     padding: 20px;
     box-shadow: 2px 2px 8px #ccc;
     margin: 0px auto;
+    color: #ccc;
+    font-size: 65px;
 }
 
 .body {
-    background-color: rgb(249, 251, 253);
+    background: linear-gradient(45deg, rgb(12, 12, 150), saddleBrown);
+    min-height: 100vh;
+}
+
+
+.list {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+
+
+}
+
+.list__item {
+    text-decoration: none;
+    font-size: 30px;
+    font-style: bold;
+    margin-left: 20px;
+    padding: 6px 15px;
+    color: white
+}
+
+
+.list__item:hover {
+    color: rgb(12, 12, 150);
+    background-color: white;
+    border-radius: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(30, 30, 205);
+    color: #ccc;
+    font-size: 80px;
+    border-radius: 100px;
+
 }
 
 .picture {
-    height: 100px;
-    height: 250px;
-    margin: 0px 100px;
+    max-width: 300px;
+    border-radius: 50%;
+    
 
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: first baseline;
-    margin: 10px auto;
-
-}
-
-.list:visited {
-    color: #ccc;
-}
-
-.list:hover {
-    color: aliceblue
-}
-
-.list {
-    background-color: rgba(58, 58, 58, 0.712);
-    padding: 10px;
-    list-style-type: none;
-    text-decoration: none;
-    position: relative;
 }

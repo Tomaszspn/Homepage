@@ -12,34 +12,45 @@
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="CSS/style.css" rel="stylesheet">
-    
+
 </head>
 
 <body class="body">
     <nav>
-        <ul class="list flex">  
-            <a href="#AboutMe" class="list">About me</a>
-            <a href="#Passions" class="list">Passions</a>
-            <a href="#Experience" class="list">Experience</a><!-- find something to interact-->
+        <ul class="list">
+            <a href="#AboutMe" class="list__item">About me</a>
+            <a href="#Passions" class="list__item">Passions</a>
+            <a href="#Experience" class="list__item">Experience</a><!-- find something to interact-->
         </ul>
     </nav>
-    <section>
+    <aside>
         <p class="name">Tomasz Spociński</p>
-        <img class="picture" src="Images/Tomasz.jpg" alt="Picture of Tomasz">
-        <h1 id="AboutMe" class="header">About Me</h1>
-            <p class="text">
-            Hi! You can call me Tomek! I was born in 1994 and come from Łódź,
-            im working for big scandinavian bank as a Procces Spiecialist, i decided to
-            start learning as a FrontEndDeveloper because i want to develop myself and i think this
-            job fit me.
-        </p>
-        
-        <h1 id="Passions" class="header">Passions - pretty mych a racing driver</h1>
-        <p class="text">
-            The biggest passions for my is motorsport, i love formule 1 and IndyCars
-        </p>
-        <h1 id="Experience" class="header">Experience</h1>
-        <p class="text"></p>
+        <div class="header">
+            <img class="picture" src="Images/Tomasz.jpg" alt="Picture of Tomasz">
+            <h1 id="AboutMe" class="header">About Me</h1>
+        </div>
+    </aside>
+
+    <p class="text">
+        Hi! You can call me Tomek! I was born in 1994 and come from Łódź,
+        I'm working for big scandinavian bank as a Procces Spiecialist, i decided to
+        start learning as a FrontEndDeveloper because I want to develop myself and i think this
+        job fit me.
+    </p>
+    <div class="header">
+    <img class="picture" src="Images/seatleon.jpg" alt="Picture of SeatLeon">
+    <h1 id="Passions" class="header">Passions - pretty much a racing driver</h1>
+    </div>
+    <p class="text">
+        The biggest passion for me is motorsport, i love formula 1 and IndyCars
+    </p>
+
+    <div></div>
+    <h1 id="Experience" class="header">Experience</h1>
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus vitae enim quae nostrum obcaecati harum
+        assumenda sit, incidunt sunt expedita adipisci suscipit reprehenderit vero ipsa architecto dolore, minima nulla!
+    </p>
     </section>
     <footer>
         <!--stopka-->
