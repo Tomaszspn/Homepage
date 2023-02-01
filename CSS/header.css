@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 20px;
+}
+
+    .header__h1{
+        font-size: 40px;
+        color: rgb(3, 3, 3);
+        
+    }
