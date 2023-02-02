@@ -1,17 +1,19 @@
 
 .article {   
-    box-shadow: 2px 2px 8px #ccc;
+    
     margin: 15px 100px;
+    
     
           
 }
 
 .article__text {
-    
+    text-indent: 10%;
     padding: 10px;
     font-size: 1.375em;
     margin: 5px 50px; 
-    color: #ccc;
+    color: rgb(255, 255, 255);
+    
 
 }
 
@@ -23,5 +25,5 @@
     width: 400px;
     max-height: 500px;
     border: 1px #ccc;
-    box-shadow: 4px 4px 20px -8px white;
+   
 }
